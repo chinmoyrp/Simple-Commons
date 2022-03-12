@@ -285,6 +285,8 @@ fun Context.getPermissionString(id: Int) = when (id) {
     PERMISSION_READ_SMS -> Manifest.permission.READ_SMS
     PERMISSION_SEND_SMS -> Manifest.permission.SEND_SMS
     PERMISSION_READ_PHONE_STATE -> Manifest.permission.READ_PHONE_STATE
+    PERMISSION_INTERNET -> Manifest.permission.INTERNET
+    PERMISSION_ACCESS_NETWORK_STATE -> Manifest.permission.ACCESS_NETWORK_STATE
     else -> ""
 }
 
